@@ -40,35 +40,35 @@ export default ({ initialTime, description, isCountdown }) => {
 
   return (
     <div className="Timer">
-      <div className="Timer__block">
-        <span className="Timer__summary">
+      <div className="Timer__summary">
+        <span>
           {description}
           {dayjs(initialTime).format("YYYY/MM/DD HH:MM")}
         </span>
       </div>
       <div className="Timer__block">
-        <span className="Timer__label">Years</span>
         <span className="Timer__value">{calculateTime.years()}</span>
+        <span className="Timer__label">Years</span>
       </div>
       <div className="Timer__block">
-        <span className="Timer__label">Months</span>
         <span className="Timer__value">{calculateTime.months()}</span>
+        <span className="Timer__label">Months</span>
       </div>
       <div className="Timer__block">
-        <span className="Timer__label">Days</span>
         <span className="Timer__value">{calculateTime.days()}</span>
+        <span className="Timer__label">Days</span>
       </div>
       <div className="Timer__block">
-        <span className="Timer__label">Hours</span>
         <span className="Timer__value">{calculateTime.hours()}</span>
+        <span className="Timer__label">Hours</span>
       </div>
       <div className="Timer__block">
-        <span className="Timer__label">Minutes</span>
         <span className="Timer__value">{calculateTime.minutes()}</span>
+        <span className="Timer__label">Minutes</span>
       </div>
       <div className="Timer__block">
-        <span className="Timer__label">Seconds</span>
         <span className="Timer__value">{calculateTime.seconds()}</span>
+        <span className="Timer__label">Seconds</span>
       </div>
     </div>
   );

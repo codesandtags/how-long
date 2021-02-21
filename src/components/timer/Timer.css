@@ -1,31 +1,41 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Stick&display=swap");
-
 .Timer {
+  font-family: sans-serif;
+  color: #333;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
   display: flex;
-  flex-direction: column;
-  background: rgba(150, 150, 150, 0.2);
-  padding: 0 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Timer__block {
-  padding: 1rem 0;
+  padding: 10px;
+  border-radius: 3px;
+  background: #444;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  margin: 0.5rem;
+  width: 75px;
 }
 
 .Timer__label {
-  font-family: "Roboto", sans-serif;
-  font-size: 2rem;
+  padding-top: 5px;
+  font-size: 18px;
+  color: white;
 }
 
 .Timer__value {
-  font-family: "Stick", sans-serif;
-  color: yellow;
-  font-size: 2rem;
-  width: 6rem;
-  text-align: right;
+  padding: 15px;
+  border-radius: 3px;
+  background: #ffd54f;
+  display: inline-block;
+  font-weight: bold;
+  font-family: 20px;
 }
 
 .Timer__summary {
   font-size: 1rem;
+  width: 100%;
+  color: #fff;
 }
