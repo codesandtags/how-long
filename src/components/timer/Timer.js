@@ -5,43 +5,44 @@ import confetti from "canvas-confetti";
 
 import "./Timer.css";
 
-const getCalculateTime = (initialTime) => {
+const getCalculateTime = (initialTime, isCountdown) => {
   let initial = dayjs(initialTime);
   let now = dayjs();
-  let difference = now.diff(initial);
+  let difference = isCountdown ? initial.diff(now) : now.diff(initial);
 
   return difference;
 };
 
-export default ({ initialTime }) => {
+export default ({ initialTime, description, isCountdown }) => {
   dayjs.extend(duration);
   const [calculateTime, setCalculateTime] = useState(
-    dayjs.duration(getCalculateTime(initialTime), "milliseconds")
+    dayjs.duration(getCalculateTime(initialTime, isCountdown), "milliseconds")
   );
 
   useEffect(() => {
     setInterval(() => {
       setCalculateTime(
-        dayjs.duration(getCalculateTime(initialTime), "milliseconds")
+        dayjs.duration(
+          getCalculateTime(initialTime, isCountdown),
+          "milliseconds"
+        )
       );
     }, 1000);
 
     setTimeout(() => {
-      const colors = ["#bb0000", "#ffffff"];
       confetti({
         particleCount: 200,
         spread: 100,
         startVelocity: 40,
-        colors: colors,
       });
-    }, 2000);
+    }, 1000);
   }, []);
 
   return (
     <div className="Timer">
       <div className="Timer__block">
         <span className="Timer__summary">
-          I arrived to 🇨🇦 <strong>Toronto</strong> on{" "}
+          {description}
           {dayjs(initialTime).format("YYYY/MM/DD HH:MM")}
         </span>
       </div>

@@ -1,15 +1,20 @@
-import Timer from "../components/timer/Timer";
+import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 import "./App.css";
+import Toronto from "./toronto/Toronto";
+import Churrita from "./churrita/Churrita";
 
 const App = () => {
+  const history = useHistory();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>How long have I been?</h1>
-        <Timer initialTime="2021-02-17 16:00:00" />
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/churrita" component={Churrita}></Route>
+        <Route exact path="/toronto" component={Toronto} />
+      </Switch>
+    </Router>
   );
 };
 

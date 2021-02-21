@@ -1,0 +1,28 @@
+.Toronto {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.Toronto::after {
+  content: "";
+  background: url("../../images/cn_tower.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(20%);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.Toronto__header {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
