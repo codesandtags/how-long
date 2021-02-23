@@ -43,7 +43,7 @@ export default ({ initialTime, description, isCountdown }) => {
       <div className="Timer__summary">
         <span>
           {description}
-          {dayjs(initialTime).format("YYYY/MM/DD HH:MM")}
+          {dayjs(initialTime).format("YYYY/MM/DD HH:mm")}
         </span>
       </div>
       <div className="Timer__block">
