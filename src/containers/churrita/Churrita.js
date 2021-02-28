@@ -10,7 +10,7 @@ const Churrita = () => {
       <header className="Churrita__header">
         <h1>How much time left?</h1>
         <Timer
-          initialTime="2022-03-01 16:00:00"
+          initialTime="2022-03-01 00:00:00"
           description="You will arrive to 🇨🇦 Toronto on "
           isCountdown
         />
