@@ -8,10 +8,10 @@ const Churrita = () => {
   return (
     <div className="Churrita">
       <header className="Churrita__header">
-        <h1>How much time left?</h1>
+        <h1>I will see you soon ❤️</h1>
         <Timer
-          initialTime="2022-03-01 00:00:00"
-          description="You will arrive to 🇨🇦 Toronto on "
+          initialTime="2023-02-01 12:00:00"
+          description="I will arrive to 🇨🇦 Toronto on "
           isCountdown
         />
       </header>

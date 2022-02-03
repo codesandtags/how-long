@@ -5,10 +5,10 @@
 
 .Churrita::after {
   content: "";
-  background: url("../../images/churrita.jpg") no-repeat;
-  background-size: cover;
-  background-position: center center;
-  filter: brightness(20%);
+  background: url("../../images/churritos.jpg") no-repeat;
+  background-size: contain;
+  background-position: top center;
+  filter: brightness(30%);
   top: 0;
   left: 0;
   bottom: 0;
