@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/how-long/static/css/main.6ebe09d8.chunk.css",
-    "main.js": "/how-long/static/js/main.a5822f11.chunk.js",
-    "main.js.map": "/how-long/static/js/main.a5822f11.chunk.js.map",
+    "main.css": "/how-long/static/css/main.215fbdd4.chunk.css",
+    "main.js": "/how-long/static/js/main.3207e96e.chunk.js",
+    "main.js.map": "/how-long/static/js/main.3207e96e.chunk.js.map",
     "runtime-main.js": "/how-long/static/js/runtime-main.02a2a506.js",
     "runtime-main.js.map": "/how-long/static/js/runtime-main.02a2a506.js.map",
     "static/js/2.181b7cf4.chunk.js": "/how-long/static/js/2.181b7cf4.chunk.js",
@@ -10,16 +10,16 @@
     "static/js/3.17cd664b.chunk.js": "/how-long/static/js/3.17cd664b.chunk.js",
     "static/js/3.17cd664b.chunk.js.map": "/how-long/static/js/3.17cd664b.chunk.js.map",
     "index.html": "/how-long/index.html",
-    "static/css/main.6ebe09d8.chunk.css.map": "/how-long/static/css/main.6ebe09d8.chunk.css.map",
+    "static/css/main.215fbdd4.chunk.css.map": "/how-long/static/css/main.215fbdd4.chunk.css.map",
     "static/js/2.181b7cf4.chunk.js.LICENSE.txt": "/how-long/static/js/2.181b7cf4.chunk.js.LICENSE.txt",
-    "static/media/Churrita.css": "/how-long/static/media/churrita.37038ad9.jpg",
+    "static/media/Churrita.css": "/how-long/static/media/churritos.2024e27b.jpg",
     "static/media/Toronto.css": "/how-long/static/media/cn_tower.bfbe9c53.jpg",
     "static/media/FiscalYear.css": "/how-long/static/media/edwin.fccbaa67.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.02a2a506.js",
     "static/js/2.181b7cf4.chunk.js",
-    "static/css/main.6ebe09d8.chunk.css",
-    "static/js/main.a5822f11.chunk.js"
+    "static/css/main.215fbdd4.chunk.css",
+    "static/js/main.3207e96e.chunk.js"
   ]
 }
