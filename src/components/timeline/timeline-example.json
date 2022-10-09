@@ -1,13 +1,13 @@
 [
     {
+        "date": "2018-07-08 18:00:00",
         "title": "🙈 Hoy fue nuestra primera cita!",
         "description": "Caminamos a la torre colpatria donde nos comimos unos sanduches en el primer piso. Esa vez, todo te daba pena y no me mirabas a los ojos.",
         "iconUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg",
         "iconTitle": "icon picture",
         "iconClass": "picture",
         "mediaUrl": "https://www.codesandtags.io/how-long/static/media/churritos.2024e27b.jpg",
-        "link": "#",
-        "date": "2018-07-08 18:00:00"
+        "link": "#"
     },
     {
         "title": "Title of section 2",
