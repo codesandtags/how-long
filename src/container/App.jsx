@@ -8,6 +8,7 @@ function App() {
 
    return (
       <div className="App">
+         <div></div>
          <Countdown></Countdown>
          <Timeline></Timeline>
       </div>

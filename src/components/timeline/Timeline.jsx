@@ -55,7 +55,7 @@ function Timeline() {
    return (
       <>
          <header>
-            <h1>These are SOME the special moments in our life.</h1>
+            <h1>Que viva Nala y los peludos.</h1>
          </header>
          <section id="cd-timeline" className="cd-container">
             {generateTimeline()}
